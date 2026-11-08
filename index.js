@@ -16,7 +16,7 @@ async function start() {
     sock.ev.on('creds.update', saveCreds);
 
     if (!sock.authState.creds.registered) {
-        const phone = process.env.PHONE_NUMBER || '255000000000';
+        const phone = process.env.PHONE_NUMBER || '255671703688';
         setTimeout(async () => {
             try {
                 const code = await sock.requestPairingCode(phone);
